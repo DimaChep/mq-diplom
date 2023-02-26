@@ -30,7 +30,7 @@ body {
 }
 .header {
   max-width: 1920px;
-  background-image: url("../Images/banner-bg.jpg");
+  background-image: url("../images/banner-bg.jpg");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -192,25 +192,25 @@ body {
   width: calc(25% - 5px);
 }
 .trend-item:first-child {
-  background-image: url(../Images/trend1.jpg);
+  background-image: url(../images/trend1.jpg);
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: cover;
 }
 .trend-item:nth-child(2) {
-  background-image: url(../Images/trend2.jpg);
+  background-image: url(../images/trend2.jpg);
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: cover;
 }
 .trend-item:nth-child(3) {
-  background-image: url(../Images/trend3.jpg);
+  background-image: url(../images/trend3.jpg);
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: cover;
 }
 .trend-item:last-child {
-  background-image: url(../Images/trend4.jpg);
+  background-image: url(../images/trend4.jpg);
   background-repeat: no-repeat;
   background-position: bottom left;
   background-size: cover;
@@ -562,7 +562,7 @@ body {
   outline: none;
   outline-offset: -1px;
 
-  background-image: url("../SVG/search.svg");
+  background-image: url("../svg/search.svg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 18px;
@@ -892,7 +892,7 @@ body {
   height: 20px;
   margin-right: 28px;
 
-  background-image: url(../SVG/001-dribbble.svg);
+  background-image: url(../svg/001-dribbble.svg);
 }
 .footer-icon-pinterest::before {
   content: "";
@@ -900,7 +900,7 @@ body {
   width: 20px;
   height: 20px;
 
-  background-image: url(../SVG/002-pinterest.svg);
+  background-image: url(../svg/002-pinterest.svg);
 }
 .footer-icon-tumblr::before {
   content: "";
@@ -909,7 +909,7 @@ body {
   height: 20px;
   margin-left: 26px;
 
-  background-image: url(../SVG/003-tumblr.svg);
+  background-image: url(../svg/003-tumblr.svg);
 }
 .copyright {
   text-decoration: none;
@@ -1007,7 +1007,7 @@ body {
   -moz-appearance: none;
 
   background: #f4f7f6;
-  background-image: url(..//SVG/form-arrows.svg);
+  background-image: url(..//svg/form-arrows.svg);
   background-repeat: no-repeat;
   background-size: 10px;
   background-position: right 14px center;
@@ -1030,7 +1030,7 @@ body {
   width: 1px;
 }
 .radio:checked ~ .radio-group-text::before {
-  background-image: url("../SVG/form-circle.svg");
+  background-image: url("../svg/form-circle.svg");
 }
 .radio-group-text::before {
   content: "";
@@ -1039,7 +1039,7 @@ body {
   width: 20px;
   height: 20px;
 
-  background-image: url("../SVG/form-empty-circle.svg");
+  background-image: url("../svg/form-empty-circle.svg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 17px;
@@ -1114,7 +1114,7 @@ body {
 }
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .header {
-    background-image: url(../Images/banner-bg-tablet.jpg);
+    background-image: url(../images/banner-bg-tablet.jpg);
     height: 392px;
     padding: 5.208% 4.557% 0 4.427%;
     border: 0;
@@ -1401,7 +1401,7 @@ body {
 }
 @media screen and (min-width: 360px) and (max-width: 767px) {
   .header {
-    background-image: url("../Images/banner-mobile.jpg");
+    background-image: url("../images/banner-mobile.jpg");
     height: 638px;
     min-width: 360px;
     max-width: 767px;
