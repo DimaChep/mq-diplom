@@ -1396,6 +1396,41 @@ body {
     right: 0px;
   }
 }
+@media screen and (641px >= width <= 1200px) and (orientation: portrait) {
+  .trend-container {
+    flex-direction: initial;
+  }
+  .trend-item {
+    min-height: 247px;
+    margin-bottom: 3px;
+  }
+  .trend-item:nth-child(odd) {
+    width: 50%;
+  }
+  .trend-item:nth-child(even) {
+    width: calc(50% - 3px);
+  }
+}
+@media screen and (641px >= width <= 1200px) and (orientation: landscape) {
+  .trend-container {
+    flex-direction: initial;
+  }
+  .trend-item {
+    margin-bottom: 0;
+  }
+  .trend-item:nth-child(2),
+  .trend-item:nth-child(3) {
+    width: calc(25% - 1.75px);
+  }
+  .trend-item:first-child,
+  .trend-item:last-child {
+    width: calc(25% - 2.75px);
+  }
+  .trend-content {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+}
 @media screen and (min-width: 360px) and (max-width: 767px) {
   .header {
     background-image: url("../images/banner-mobile.jpg");
@@ -1449,7 +1484,7 @@ body {
     flex-direction: column;
   }
   .trend-item {
-    width: 100%;
+    min-width: 100%;
     min-height: 231px;
     margin-right: 0;
     margin-bottom: 3px;
@@ -1460,7 +1495,7 @@ body {
   }
 
   .trend-box {
-    min-width: 91.67%;
+    width: 100%;
     padding: 25px 7.5%;
   }
   .trend-item:first-child .trend-box {
@@ -1791,11 +1826,12 @@ body {
     right: 1px;
   }
 }
-@media screen and (min-width: 641px) and (max-width: 1200px) and (orientation: portrait) {
+@media screen and (min-width: 667px) and (max-width: 767px) and (orientation: landscape) {
   .trend-container {
-    flex-direction: initial;
+    flex-direction: row;
   }
   .trend-item {
+    min-width: auto;
     min-height: 247px;
     margin-bottom: 3px;
   }
@@ -1804,26 +1840,6 @@ body {
   }
   .trend-item:nth-child(even) {
     width: calc(50% - 3px);
-  }
-}
-@media screen and (min-width: 641px) and (max-width: 1200px) and (orientation: landscape) {
-  .trend-container {
-    flex-direction: initial;
-  }
-  .trend-item {
-    margin-bottom: 0;
-  }
-  .trend-item:nth-child(2),
-  .trend-item:nth-child(3) {
-    width: calc(25% - 1.75px);
-  }
-  .trend-item:first-child,
-  .trend-item:last-child {
-    width: calc(25% - 2.75px);
-  }
-  .trend-content {
-    font-size: 16px;
-    line-height: 1.25;
   }
 }
 @media screen and (max-width: 640px) and (orientation: portrait) {
